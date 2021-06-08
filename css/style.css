@@ -1,0 +1,142 @@
+* {
+margin: 0;
+padding: 0;
+}
+.container {
+width: 100%;
+max-width: 1272px;
+margin: 0 auto;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+}
+/*  --- header start --- */
+.main-header {
+height: 275px;
+background-color: #445161;
+color: #fff;
+padding: 25px 50px 0 50px;
+display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.main-header-title {
+font-size: 60px;
+line-height: 69px;
+margin-bottom: 40px;
+}
+.main-header-list-item {
+font-size: 20px;
+line-height: 23px;
+margin-bottom: 10px;
+padding: 0 0 0 21px;
+position: relative;
+list-style-type: none;
+}
+.main-header-list-item::before {
+content: "";
+display: block;
+width: 16px;
+height: 13px;
+position: absolute;
+left: 0;
+top: 0;
+background-image: url(https://i.ibb.co/g30PVsZ/Vector.png);
+background-size: cover;
+}
+.main-header-list-item:last-child {
+margin-bottom: 0;
+}
+.main-header-img {
+background-color: #fff;
+color: black;
+height: 217px;
+width: 472px;
+display: block;
+font-size: 20px;
+}
+/*  --- header end --- */
+/*  --- main start --- */
+.content {
+
+}
+/*  --- section about-product start --- */
+.about-product {
+padding: 45px 50px 0 50px;
+height: 340px;
+display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.about-produck-wrp {
+width: 100%;
+max-width: 646px;
+}
+.about-product-title {
+color: #445161;
+font-size: 30px;
+line-height: 36px;
+margin-bottom: 17px;
+}
+.about-product-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.about-product-text-first {
+ margin-bottom: 11px;
+}
+.about-product-video {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+/*  --- section about-product end --- */
+/*  --- section dignity start --- */
+.dignity {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-sizing: border-box;
+height: 400px;
+background-color: #F5F5F5;
+padding: 25px 20px 0 50px;
+}
+.dignity-title {
+width: 100%;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+color: #445161;
+margin-bottom: 15px;
+}
+.dignity-list {
+width: 598px;
+list-style-type: none;
+}
+.dignity-list-item {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    padding-left: 42px;
+    position: relative;
+}
+.dignity-list-item:first-child {
+    margin-bottom: 26px;
+}
+.dignity-list-item:last-child {
+    margin-top: 27px;
+}
+.dignity-list-item:before {
+    content: "";
+    display: block;
+    width: 34px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(https://i.ibb.co/6BZ7fZB/plus-icon.png);
+    background-size: cover;
+    }
+/*  --- section dignity end --- */
+/*  --- main end --- */
