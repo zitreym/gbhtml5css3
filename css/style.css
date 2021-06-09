@@ -274,5 +274,83 @@ width: 483px;
     margin-top: 5px;
 }
 /*  --- section reviews end --- */
+/*  --- section prices start --- */
+.prices {
+display: flex;
+flex-wrap: wrap;
+padding: 45px 137px 36px 145px;
+}
+.prices-title {
+    height: 36px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.prices-cards-wrp {
+    display: flex;
+    align-items: flex-end;
+}
+.prices-card {
+    width: 300px;
+    background: #445161;
+    border-radius: 5px;
+    border: 1px solid #445161;
+    box-sizing: border-box;
+    padding: 14px 0 19px 0;
+}
+.prices-card-standart, .prices-card-premium {
+    margin-right: 45px;
+}
+.prices-card-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+}
+.prices-card-price {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 30px;
+    color: #445162;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 25px 0 16px 0;
+    margin: 7px 0;
+}
+.prices-card-list {
+    list-style-type: none;
+}
+.prices-card-list-item {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.prices-card-button {
+    width: 262px;
+    height: 43px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 18px;
+color: #445161;
+text-transform: uppercase;
+border-radius: 5px;
+margin: 14px 0 0 20px;
+}
+/*  --- section prices end --- */
 /*  --- main end --- */
 
