@@ -13,7 +13,7 @@ font-weight: normal;
 }
 /*  --- header start --- */
 .main-header {
-height: 275px;
+min-height: 275px;
 background-color: #445161;
 color: #fff;
 padding: 25px 50px 0 50px;
@@ -62,7 +62,7 @@ font-size: 20px;
 /*  --- section about-product start --- */
 .about-product {
 padding: 45px 50px 0 50px;
-height: 340px;
+min-height: 340px;
 display: flex;
 justify-content: space-between;
 }
@@ -97,7 +97,7 @@ background-color: #445161;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-height: 400px;
+min-height: 400px;
 background-color: #F5F5F5;
 padding: 25px 20px 0 50px;
 font-style: normal;
@@ -144,7 +144,7 @@ background-size: cover;
 /*  --- section dignity end --- */
 /*  --- section screenshots start --- */
 .screenshots {
-max-height: 490px;
+min-height: 490px;
 padding: 25px 12px 50px 50px;
 display: flex;
 flex-wrap: wrap;
@@ -197,13 +197,13 @@ color: #333333;
 /*  --- section reviews start --- */
 .reviews {
 background-color: #F5F5F5;
-max-height: 400px;
+min-height: 400px;
 padding: 25px 50px 42px 62px;
 display: flex;
 flex-wrap: wrap;
 }
 .reviews-title {
-height: 36px;
+min-height: 36px;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
@@ -283,7 +283,7 @@ flex-wrap: wrap;
 padding: 45px 137px 36px 145px;
 }
 .prices-title {
-height: 36px;
+min-height: 36px;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
@@ -338,7 +338,7 @@ line-height: 24px;
 color: #FFFFFF;
 margin-left: 20px;
 }
-.prices-card-button, .prices-card-button:active {
+.prices-card-button {
 width: 262px;
 height: 43px;
 background: #FFFFFF;
@@ -351,6 +351,10 @@ color: #445161;
 text-transform: uppercase;
 border-radius: 5px;
 margin: 14px 0 0 20px;
+}
+.prices-card-button:active {
+background: #FFFFFF;
+color: #445161;
 }
 .prices-card-button:hover{
 color: #FFFFFF;
