@@ -43,7 +43,7 @@ height: 13px;
 position: absolute;
 left: 0;
 top: 0;
-background-image: url(/img/Vector.png);
+background-image: url(../img/Vector.png);
 background-size: cover;
 }
 .main-header-list-item:last-child {
@@ -138,7 +138,7 @@ height: 35px;
 position: absolute;
 left: 0;
 top: 0;
-background-image: url(/img/plus_icon.png);
+background-image: url(../img/plus_icon.png);
 background-size: cover;
 }
 /*  --- section dignity end --- */
@@ -488,16 +488,16 @@ top: 0;
 left: 0;
 }
 .link1:before {
-background-image: url(/img/skype.svg);
+background-image: url(../img/skype.svg);
 }
 .link2:before {
-background-image: url(/img/isq.svg);
+background-image: url(../img/isq.svg);
 }
 .link3:before {
-background-image: url(/img/mail.svg);
+background-image: url(../img/mail.svg);
 }
 .link4:before {
-background-image: url(/img/phone.svg);
+background-image: url(../img/phone.svg);
 }
 .main-footer-contacts-icons {
 display: flex;
@@ -507,33 +507,31 @@ justify-content: space-between;
 display: block;
 width: 45px;
 height: 45px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+background-image: url(../img/isons.svg);
 }
 .icon1, .icon1:active{
-background-image: url(/img/twiter.svg);
+background-position: 0 0;
 }
 .icon2, .icon2:active{
-background-image: url(/img/vk.svg);
+    background-position: 45px 0;
 }
 .icon3, .icon3:active{
-background-image: url(/img/google.svg);
+    background-position: 90px 0;
 }
 .icon4, .icon4:active{
-background-image: url(/img/facebook.svg);
+    background-position: 135px 0;
 }
 .icon1:hover{
-background-image: url(/img/twiter-hover.svg);
+    background-position: 0 45px;
 }
 .icon2:hover{
-background-image: url(/img/vk-hover.svg);
+    background-position: 45px 45px;
 }
 .icon3:hover{
-background-image: url(/img/google-hover.svg);
+    background-position: 90px 45px;
 }
 .icon4:hover{
-background-image: url(/img/facebook-hover.svg);
+    background-position: 135px 45px;
 }
 .copyright{
 display: block;
